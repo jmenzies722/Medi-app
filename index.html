@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Medi-App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="vitamin.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Medi-App</h1>   
+		<div class="slots">
+			<div class="slot">
+				<button class="btn">Slot 1</button>
+			</div>
+			<div class="slot">
+				<button class="btn">Slot 2</button>
+			</div>
+			<div class="slot">
+				<button class="btn">Slot 3</button>
+			</div>
+			<div class="slot">
+				<button class="btn">Slot 4</button>
+			</div>
+			<div class="slot">
+				<button class="btn">Slot 5</button>
+			</div>
+			<div class="slot">
+				<button class="btn">Slot 6</button>
+			</div>
+		</div>
+		<div class="schedule">
+			<h2>Schedule Dispensing</h2>
+			<form>
+				<label for="slot">Select Slot:</label>
+				<select id="slot" name="slot">
+					<option value="1">Slot 1</option>
+					<option value="2">Slot 2</option>
+					<option value="3">Slot 3</option>
+					<option value="4">Slot 4</option>
+					<option value="5">Slot 5</option>
+					<option value="6">Slot 6</option>
+				</select>
+				<label for="time">Select Time:</label>
+				<input type="time" id="time" name="time">
+				<button class="btn">Schedule</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
